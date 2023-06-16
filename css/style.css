@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import "./mainVariables.css";
+@import "./header.css";
+@import "./mainFeauters.css";
+@import "./mainProcess.css";
+@import "./mainBrands.css";
+@import "./mainWork.css";
+@import "./footer.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main-padding: 250px;
+    --block-distance: 184px;
+}
+body {
+    background-color: #f2f2f2;
+    font-family: "DM Sans", sans-serif;
+}
+
+@media screen and (min-width: 2000px) {
+    :root {
+        --main-padding: 372px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    :root {
+        --main-padding: 140px;
+        --block-distance: 120px;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    .navbar-list {
+        display: none;
+    }
+    .navbar .btn {
+        display: none;
+    }
+    .page-logo--img {
+        width: 200px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    :root {
+        --main-padding: 16px;
+        --block-distance: 40px;
+    }
+    .page-logo--img {
+        width: 160px;
+        height: 40px;
+    }
+}
+

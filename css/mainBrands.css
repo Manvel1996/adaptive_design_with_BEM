@@ -1,0 +1,76 @@
+.main-brands {
+  padding-inline: var(--main-padding);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: var(--block-distance);
+  width: 100%;
+}
+.main-brands-text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 122%;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #00a077;
+  opacity: 0.5;
+  margin-bottom: 24px;
+}
+.main-brands-title {
+  max-width: 890px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 122%;
+  text-align: center;
+  color: #3b3e43;
+  margin-bottom: 32px;
+}
+.main-brands-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 80px;
+  margin-bottom: 60px;
+  width: 100%;
+}
+.main-brands-logos-logo {
+  width: 15%;
+  height: 56px;
+}
+.main-brands-logos-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 148%;
+  text-align: center;
+  color: #424a4d;
+  max-width: 380px;
+}
+
+@media screen and (max-width: 1250px) {
+  .main-brands-title {
+    font-size: 36px;
+    line-height: 120%;
+    margin-bottom: 20px;
+  }
+  .main-brands-logos {
+    gap: 30px;
+  }
+  .main-brands-logos-description {
+    font-size: 14px;
+    line-height: 100%;
+  }
+  .main-brands-logos-logo {
+    width: 20%;
+    height: 64px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-brands-title {
+    font-size: 28px;
+  }
+  .main-brands-logos-logo {
+    width: 40%;
+    height: 80px;
+  }
+}

@@ -1,0 +1,50 @@
+.footer {
+  background: #0d0d0d;
+  padding: 84px var(--main-padding) 32px var(--main-padding);
+}
+.footer-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+.footer-navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer-navbar-links img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.footer-line {
+  width: 100%;
+  opacity: 0.35;
+  border: 1px solid #ffffff;
+  margin-bottom: 28px;
+}
+.footer-license {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-license-company {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.footer-license-block {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.footer-license-block > p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
