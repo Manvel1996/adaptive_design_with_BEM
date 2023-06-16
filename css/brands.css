@@ -30,7 +30,7 @@
   margin-bottom: 60px;
   width: 100%;
 }
-.brand__logo {
+.brands__logos .brand__logo {
   width: 15%;
   height: 56px;
 }
@@ -47,15 +47,14 @@
   .brands__logos {
     gap: 30px;
   }
-  .brand__logo {
+  .brands .brand__logo {
     width: 20%;
     height: 64px;
   }
 }
-
 @media screen and (max-width: 600px) {
-  .brand__logo {
+  .brands .brand__logo {
     width: 40%;
     height: 80px;
   }
-}
+}/*# sourceMappingURL=brands.css.map */

@@ -26,11 +26,10 @@
   text-align: left;
   margin-bottom: 32px;
 }
-.works__img {
+.works .works__img {
   width: 50%;
 }
-
-.works__img--relative {
+.works .works__img--relative {
   position: relative;
   padding-top: 83%;
 }
@@ -53,7 +52,6 @@
     margin-bottom: 16px;
   }
 }
-
 @media screen and (max-width: 600px) {
   .works__img {
     width: 100%;
@@ -64,4 +62,4 @@
   .works__info--description {
     margin-bottom: 10px;
   }
-}
+} /*# sourceMappingURL=work.css.map */
