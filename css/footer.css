@@ -2,7 +2,7 @@
   background: #0d0d0d;
   padding: 84px var(--main-padding) 32px var(--main-padding);
 }
-.footer-navbar {
+.footer__navbar {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -10,39 +10,47 @@
   flex-wrap: wrap;
   margin-bottom: 28px;
 }
-.footer-navbar-links {
+.footer .navbar-list__item {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  cursor: pointer;
+}
+.footer__navbar-links {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.footer-navbar-links img {
+.footer__navbar-links > a > img {
   width: 20px;
   height: 20px;
   cursor: pointer;
 }
-.footer-line {
+.footer--line {
   width: 100%;
   opacity: 0.35;
   border: 1px solid #ffffff;
   margin-bottom: 28px;
 }
-.footer-license {
+.footer__license {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.footer-license-company {
+.footer__license--company {
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
   color: rgba(255, 255, 255, 0.8);
 }
-.footer-license-block {
+.footer__license__block {
   display: flex;
   align-items: center;
   gap: 24px;
 }
-.footer-license-block > p {
+.footer__license__block > p {
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
