@@ -40,7 +40,6 @@
     font-size: 22px;
     line-height: 30px;
     color: #3b3e43;
-    margin-bottom: 15px;
 }
 .description {
     font-weight: 400;
@@ -65,7 +64,6 @@
     .block-title {
         font-size: 20px;
         line-height: 28px;
-        margin-bottom: 10px;
     }
     .description {
         font-size: 18px;

@@ -23,7 +23,7 @@ body {
 
 @media screen and (min-width: 2000px) {
     :root {
-        --main-padding: 372px;
+        --main-padding: 25%;
     }
 }
 

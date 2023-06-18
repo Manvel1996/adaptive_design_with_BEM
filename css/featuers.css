@@ -52,6 +52,9 @@
   width: 28px;
   height: 28px;
 }
+.features__block-title{
+  margin-bottom: 16px;
+}
 .features__block-description {
   color: #595e64;
 }
@@ -67,6 +70,9 @@
     padding: 20px 8px 10px 10px;
     width: 270px;
     height: auto;
+  }
+  .features__block-title{
+    margin-bottom: 8px;
   }
 }
 @media screen and (max-width: 600px) {
