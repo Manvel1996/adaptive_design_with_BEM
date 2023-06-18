@@ -135,7 +135,7 @@
 }
 
 @media screen and (max-width: 1250px) {
-  .navbar-list {
+  .navbar .navbar-list {
     display: none;
   }
   .navbar .btn {
