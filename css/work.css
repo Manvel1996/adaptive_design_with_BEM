@@ -9,7 +9,7 @@
   width: 40%;
   margin-top: 60px;
 }
-.works__text {
+.works__info .works__text {
   font-weight: 700;
   font-size: 12px;
   line-height: 122%;
@@ -29,7 +29,6 @@
 .works__img {
   width: 50%;
 }
-
 .works__img-relatively {
   position: relative;
   padding-top: 83%;
@@ -53,7 +52,6 @@
     margin-bottom: 16px;
   }
 }
-
 @media screen and (max-width: 600px) {
   .works__img {
     width: 100%;
@@ -64,4 +62,4 @@
   .works__info-description {
     margin-bottom: 10px;
   }
-}
+}/*# sourceMappingURL=work.css.map */
