@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   margin-bottom: 28px;
 }
-.footer .list-item {
+.footer__navbar .list-item {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.8);
   font-weight: 500;
@@ -18,12 +18,12 @@
   line-height: 100%;
   cursor: pointer;
 }
-.footer__navbar-links {
+.footer__navbar .footer__navbar-links {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.footer__navbar-links > a > img {
+.footer__navbar-links a img {
   width: 20px;
   height: 20px;
   cursor: pointer;
@@ -50,9 +50,9 @@
   align-items: center;
   gap: 24px;
 }
-.footer__license-block > p {
+.footer__license-block p {
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
   color: rgba(255, 255, 255, 0.8);
-}
+}/*# sourceMappingURL=footer.css.map */
