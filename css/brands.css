@@ -6,7 +6,7 @@
   margin-bottom: var(--block-distance);
   width: 100%;
 }
-.brands--text {
+.brands__text {
   font-weight: 700;
   font-size: 12px;
   line-height: 122%;
@@ -16,7 +16,7 @@
   opacity: 0.5;
   margin-bottom: 24px;
 }
-.brands--title {
+.brands__title {
   max-width: 890px;
   text-align: center;
   color: #3b3e43;
@@ -30,31 +30,31 @@
   margin-bottom: 60px;
   width: 100%;
 }
-.brand__logo {
+.brand-logo {
   width: 15%;
   height: 56px;
 }
-.brands--description {
+.brands__description {
   text-align: center;
   color: #424a4d;
   max-width: 380px;
 }
 
 @media screen and (max-width: 1250px) {
-  .brands--title {
+  .brands__title {
     margin-bottom: 20px;
   }
   .brands__logos {
     gap: 30px;
   }
-  .brand__logo {
+  .brand-logo {
     width: 20%;
     height: 64px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .brand__logo {
+  .brand-logo {
     width: 40%;
     height: 80px;
   }

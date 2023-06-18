@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   margin-bottom: 28px;
 }
-.footer .navbar-list__item {
+.footer .list-item {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.8);
   font-weight: 500;
@@ -28,7 +28,7 @@
   height: 20px;
   cursor: pointer;
 }
-.footer--line {
+.footer__line {
   width: 100%;
   opacity: 0.35;
   border: 1px solid #ffffff;
@@ -39,18 +39,18 @@
   justify-content: space-between;
   align-items: center;
 }
-.footer__license--company {
+.footer__license-company {
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
   color: rgba(255, 255, 255, 0.8);
 }
-.footer__license__block {
+.footer__license-block {
   display: flex;
   align-items: center;
   gap: 24px;
 }
-.footer__license__block > p {
+.footer__license-block > p {
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;

@@ -9,7 +9,7 @@
   width: 40%;
   margin-top: 60px;
 }
-.works__info--text {
+.works__text {
   font-weight: 700;
   font-size: 12px;
   line-height: 122%;
@@ -18,11 +18,11 @@
   opacity: 0.5;
   margin-bottom: 24px;
 }
-.works__info--title {
+.works__info-title {
   color: #ffffff;
   margin-bottom: 24px;
 }
-.works__info--description {
+.works__info-description {
   text-align: left;
   margin-bottom: 32px;
 }
@@ -30,7 +30,7 @@
   width: 50%;
 }
 
-.works__img--relative {
+.works__img-relatively {
   position: relative;
   padding-top: 83%;
 }
@@ -46,10 +46,10 @@
   .works__info {
     width: 80%;
   }
-  .works__info--title {
+  .works__info-title {
     margin-bottom: 10px;
   }
-  .works__info--description {
+  .works__info-description {
     margin-bottom: 16px;
   }
 }
@@ -61,7 +61,7 @@
   .works__info {
     width: 100%;
   }
-  .works__info--description {
+  .works__info-description {
     margin-bottom: 10px;
   }
 }
