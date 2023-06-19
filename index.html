@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adaptive page</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
@@ -13,324 +19,419 @@
         <div class="page-logo">
           <img class="page-logo__img" src="./img/logo.png" alt="logo" />
         </div>
-        <ul class="navbar-list">
-          <li><a class="list-item" href="#">Home</a></li>
-          <li><a class="list-item" href="#">Your benefits</a></li>
-          <li><a class="list-item" href="#">Our process</a></li>
-          <li><a class="list-item" href="#">Our works</a></li>
-          <li><a class="list-item" href="#">Testimonials</a></li>
-          <li><a class="list-item" href="#">Start a project</a></li>
+
+        <ul class="navbar-list navbar-list--disapear">
+          <li class="navbar-item">
+            <a class="navbar__link" href="#">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar__link" href="#">Your benefits</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar__link" href="#">Our process</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar__link" href="#">Our works</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar__link" href="#">Testimonials</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar__link" href="#">Start a project</a>
+          </li>
         </ul>
-        <button class="btn">GET STARTED</button>
+
+        <button class="btn btn--disapear">GET STARTED</button>
+
         <div class="mobile-menu">
           <input id="mobile-menu__togle" type="checkbox" />
           <label class="mobile-menu__btn" for="mobile-menu__togle">
             <span></span>
           </label>
-          <ul class="mobile-menu__navbar-list">
-            <li><a class="list-item" href="#">Home</a></li>
-            <li>
-              <a class="list-item" href="#">Your benefits</a>
+
+          <ul class="mobile-menu__navbar">
+            <li class="navbar-item">
+              <a class="navbar__link--mobile" href="#">Home</a>
             </li>
-            <li><a class="list-item" href="#">Our process</a></li>
-            <li><a class="list-item" href="#">Our works</a></li>
-            <li>
-              <a class="list-item" href="#">Testimonials</a>
+            <li class="navbar-item">
+              <a class="navbar__link--mobile" href="#">Your benefits</a>
             </li>
-            <li>
-              <a class="list-item" href="#">Start a project</a>
+            <li class="navbar-item">
+              <a class="navbar__link--mobile" href="#">Our process</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar__link--mobile" href="#">Our works</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar__link--mobile" href="#">Testimonials</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar__link--mobile" href="#">Start a project</a>
             </li>
           </ul>
         </div>
       </navbar>
-
-      <div class="header-main">
-        <h2 class="header-main__title">A Digital Product Design Agency</h2>
-        <h4 class="header-main__description description">
-          We are Creative and Professional Digital Agency
-        </h4>
-        <button class="btn">GET STARTED</button>
-        <div class="header-main__img">
-          <div class="header-main__img-relatively">
-            <img
-              class="aspect-ratio-img"
-              src="./img/header_main_img.png"
-              alt="main-img" />
-          </div>
-        </div>
-      </div>
     </header>
 
     <main class="main">
-      <div class="features">
-        <div class="features__header">
-          <p class="features__header-text">FEATURES</p>
-          <h3 class="features__header-title title">
-            We are here to help you with
-          </h3>
+      <div class="wrapper">
+        <div class="wrapper__content">
+          <h2 class="wrapper__title">A Digital Product Design Agency</h2>
+          <h4 class="wrapper__description description">
+            We are Creative and Professional Digital Agency
+          </h4>
+
+          <button class="btn btn--margin">GET STARTED</button>
+
+          <div class="wrapper__img">
+            <div class="wrapper__img-relatively">
+              <img
+                class="aspect-ratio-img"
+                src="./img/header_main_img.png"
+                alt="main-img"
+              />
+            </div>
+          </div>
         </div>
-        <div class="features__container">
-          <div class="features__block">
-            <div class="features__block-img">
-              <img src="./img/main_help_block_icon.png" alt="icon" />
-            </div>
-            <h3 class="features__block-title block-title">
-              Grow your business
+      </div>
+
+      <div class="features">
+        <div class="features__content">
+          <div class="features__header">
+            <p class="features__header-text">FEATURES</p>
+            <h3 class="features__header-title title">
+              We are here to help you with
             </h3>
-            <h5 class="features__block-description block-description">
-              The magic wand for success is in figuring out how to bring in the
-              profits and ensure the capacity needed to sustain that growth for
-              posterity.
-            </h5>
           </div>
-          <div class="features__block">
-            <div class="features__block-img">
-              <img src="./img/main_help_block_icon.png" alt="icon" />
+
+          <div class="features__container">
+            <div class="features__block">
+              <div class="features__block-img">
+                <img src="./img/main_help_block_icon.png" alt="icon" />
+              </div>
+              <h3 class="features__block-title block-title">
+                Grow your business
+              </h3>
+              <h5 class="features__block-description block-description">
+                The magic wand for success is in figuring out how to bring in
+                the profits and ensure the capacity needed to sustain that
+                growth for posterity.
+              </h5>
             </div>
-            <h3 class="features__block-title block-title">
-              Grow your business
-            </h3>
-            <h5 class="features__block-description block-description">
-              The magic wand for success is in figuring out how to bring in the
-              profits and ensure the capacity needed to sustain that growth for
-              posterity.
-            </h5>
-          </div>
-          <div class="features__block">
-            <div class="features__block-img">
-              <img src="./img/main_help_block_icon.png" alt="icon" />
+
+            <div class="features__block">
+              <div class="features__block-img">
+                <img src="./img/main_help_block_icon.png" alt="icon" />
+              </div>
+              <h3 class="features__block-title block-title">
+                Grow your business
+              </h3>
+              <h5 class="features__block-description block-description">
+                The magic wand for success is in figuring out how to bring in
+                the profits and ensure the capacity needed to sustain that
+                growth for posterity.
+              </h5>
             </div>
-            <h3 class="features__block-title block-title">
-              Grow your business
-            </h3>
-            <h5 class="features__block-description block-description">
-              The magic wand for success is in figuring out how to bring in the
-              profits and ensure the capacity needed to sustain that growth for
-              posterity.
-            </h5>
-          </div>
-          <div class="features__block">
-            <div class="features__block-img">
-              <img src="./img/main_help_block_icon.png" alt="icon" />
+
+            <div class="features__block">
+              <div class="features__block-img">
+                <img src="./img/main_help_block_icon.png" alt="icon" />
+              </div>
+              <h3 class="features__block-title block-title">
+                Grow your business
+              </h3>
+              <h5 class="features__block-description block-description">
+                The magic wand for success is in figuring out how to bring in
+                the profits and ensure the capacity needed to sustain that
+                growth for posterity.
+              </h5>
             </div>
-            <h3 class="features__block-title block-title">
-              Grow your business
-            </h3>
-            <h5 class="features__block-description block-description">
-              The magic wand for success is in figuring out how to bring in the
-              profits and ensure the capacity needed to sustain that growth for
-              posterity.
-            </h5>
-          </div>
-          <div class="features__block">
-            <div class="features__block-img">
-              <img src="./img/main_help_block_icon.png" alt="icon" />
+
+            <div class="features__block">
+              <div class="features__block-img">
+                <img src="./img/main_help_block_icon.png" alt="icon" />
+              </div>
+              <h3 class="features__block-title block-title">
+                Grow your business
+              </h3>
+              <h5 class="features__block-description block-description">
+                The magic wand for success is in figuring out how to bring in
+                the profits and ensure the capacity needed to sustain that
+                growth for posterity.
+              </h5>
             </div>
-            <h3 class="features__block-title block-title">
-              Grow your business
-            </h3>
-            <h5 class="features__block-description block-description">
-              The magic wand for success is in figuring out how to bring in the
-              profits and ensure the capacity needed to sustain that growth for
-              posterity.
-            </h5>
-          </div>
-          <div class="features__block">
-            <div class="features__block-img">
-              <img src="./img/main_help_block_icon.png" alt="icon" />
+
+            <div class="features__block">
+              <div class="features__block-img">
+                <img src="./img/main_help_block_icon.png" alt="icon" />
+              </div>
+              <h3 class="features__block-title block-title">
+                Grow your business
+              </h3>
+              <h5 class="features__block-description block-description">
+                The magic wand for success is in figuring out how to bring in
+                the profits and ensure the capacity needed to sustain that
+                growth for posterity.
+              </h5>
             </div>
-            <h3 class="features__block-title block-title">
-              Grow your business
-            </h3>
-            <h5 class="features__block-description block-description">
-              The magic wand for success is in figuring out how to bring in the
-              profits and ensure the capacity needed to sustain that growth for
-              posterity.
-            </h5>
+
+            <div class="features__block">
+              <div class="features__block-img">
+                <img src="./img/main_help_block_icon.png" alt="icon" />
+              </div>
+              <h3 class="features__block-title block-title">
+                Grow your business
+              </h3>
+              <h5 class="features__block-description block-description">
+                The magic wand for success is in figuring out how to bring in
+                the profits and ensure the capacity needed to sustain that
+                growth for posterity.
+              </h5>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="process">
-        <div class="process__header">
-          <p class="process__header-text">HOW IT WORKS</p>
-          <h3 class="process__header-title title">Our Process</h3>
-          <h5 class="process__header-description description">
-            We know the best solution for all of your business ideas and we can
-            help you solve all business problems
-          </h5>
-        </div>
-        <div class="process__container">
-          <div class="process__block">
-            <div class="process__block-img">
-              <div class="process__block-img-relatively">
-                <img
-                  class="aspect-ratio-img"
-                  src="./img/main_process_block_img.png" />
-              </div>
-            </div>
-            <div class="process__block-info">
-              <div class="process__block-info-img">
-                <img src="./img/main_process_info_icon.png" alt="icon" />
-              </div>
-              <h3 class="process__block-title block-title">Business Audit</h3>
-              <h5 class="process__block-info-description block-description">
-                An audit examines your business's financial records to verify
-                they are accurate. This is done through a systematic review of
-                your transactions.
-              </h5>
-            </div>
-            <div class="process__block-line"></div>
+        <div class="process__content">
+          <div class="process__header">
+            <p class="process__header-text">HOW IT WORKS</p>
+            <h3 class="process__header-title title">Our Process</h3>
+            <h5 class="process__header-description description">
+              We know the best solution for all of your business ideas and we
+              can help you solve all business problems
+            </h5>
           </div>
-          <div class="process__block">
-            <div class="process__block-img">
-              <div class="process__block-img-relatively">
-                <img
-                  class="aspect-ratio-img"
-                  src="./img/main_process_block_img.png" />
+
+          <div class="process__container">
+            <div class="process__block">
+              <div class="process__block-img">
+                <div class="process__block-img-relatively">
+                  <img
+                    class="aspect-ratio-img"
+                    src="./img/main_process_block_img.png"
+                  />
+                </div>
               </div>
+
+              <div class="process__block-info">
+                <div class="process__block-info-img">
+                  <img src="./img/main_process_info_icon.png" alt="icon" />
+                </div>
+                <h3 class="process__block-title block-title">Business Audit</h3>
+                <h5 class="process__block-info-description block-description">
+                  An audit examines your business's financial records to verify
+                  they are accurate. This is done through a systematic review of
+                  your transactions.
+                </h5>
+              </div>
+              <div class="process__block-line"></div>
             </div>
-            <div class="process__block-info">
-              <div class="process__block-info-img">
-                <img src="./img/main_process_info_icon.png" alt="icon" />
+
+            <div class="process__block">
+              <div class="process__block-img">
+                <div class="process__block-img-relatively">
+                  <img
+                    class="aspect-ratio-img"
+                    src="./img/main_process_block_img.png"
+                  />
+                </div>
               </div>
-              <h3 class="process__block-title block-title">Business Audit</h3>
-              <h5 class="process__block-info-description block-description">
-                An audit examines your business's financial records to verify
-                they are accurate. This is done through a systematic review of
-                your transactions.
-              </h5>
+
+              <div class="process__block-info">
+                <div class="process__block-info-img">
+                  <img src="./img/main_process_info_icon.png" alt="icon" />
+                </div>
+                <h3 class="process__block-title block-title">Business Audit</h3>
+                <h5 class="process__block-info-description block-description">
+                  An audit examines your business's financial records to verify
+                  they are accurate. This is done through a systematic review of
+                  your transactions.
+                </h5>
+              </div>
+              <div class="process__block-line"></div>
             </div>
-            <div class="process__block-line"></div>
-          </div>
-          <div class="process__block">
-            <div class="process__block-img">
-              <div class="process__block-img-relatively">
-                <img
-                  class="aspect-ratio-img"
-                  src="./img/main_process_block_img.png" />
+
+            <div class="process__block">
+              <div class="process__block-img">
+                <div class="process__block-img-relatively">
+                  <img
+                    class="aspect-ratio-img"
+                    src="./img/main_process_block_img.png"
+                  />
+                </div>
               </div>
-            </div>
-            <div class="process__block-info">
-              <div class="process__block-info-img">
-                <img src="./img/main_process_info_icon.png" alt="icon" />
+
+              <div class="process__block-info">
+                <div class="process__block-info-img">
+                  <img src="./img/main_process_info_icon.png" alt="icon" />
+                </div>
+                <h3 class="process__block-title block-title">Business Audit</h3>
+                <h5 class="process__block-info-description block-description">
+                  An audit examines your business's financial records to verify
+                  they are accurate. This is done through a systematic review of
+                  your transactions.
+                </h5>
               </div>
-              <h3 class="process__block-title block-title">Business Audit</h3>
-              <h5 class="process__block-info-description block-description">
-                An audit examines your business's financial records to verify
-                they are accurate. This is done through a systematic review of
-                your transactions.
-              </h5>
             </div>
           </div>
         </div>
       </div>
 
       <div class="brands">
-        <p class="brands__text">BRANDS</p>
-        <h3 class="brands__title title">
-          We work with thousands of the world’s leading brands
-        </h3>
-        <div class="brands__logos">
-          <img
-            class="brand-logo"
-            src="./img/main_brand_logo.png"
-            alt="brand_logo" />
-          <img
-            class="brand-logo"
-            src="./img/main_brand_logo.png"
-            alt="brand_logo" />
-          <img
-            class="brand-logo"
-            src="./img/main_brand_logo.png"
-            alt="brand_logo" />
-          <img
-            class="brand-logo"
-            src="./img/main_brand_logo.png"
-            alt="brand_logo" />
-          <img
-            class="brand-logo"
-            src="./img/main_brand_logo.png"
-            alt="brand_logo" />
-          <img
-            class="brand-logo"
-            src="./img/main_brand_logo.png"
-            alt="brand_logo" />
-          <img
-            class="brand-logo"
-            src="./img/main_brand_logo.png"
-            alt="brand_logo" />
-          <img
-            class="brand-logo"
-            src="./img/main_brand_logo.png"
-            alt="brand_logo" />
-          <img
-            class="brand-logo"
-            src="./img/main_brand_logo.png"
-            alt="brand_logo" />
-          <img
-            class="brand-logo"
-            src="./img/main_brand_logo.png"
-            alt="brand_logo" />
+        <div class="brands__content">
+          <p class="brands__text">BRANDS</p>
+
+          <h3 class="brands__title title">
+            We work with thousands of the world’s leading brands
+          </h3>
+
+          <div class="brands__logos">
+            <img
+              class="brand-logo"
+              src="./img/main_brand_logo.png"
+              alt="brand_logo"
+            />
+            <img
+              class="brand-logo"
+              src="./img/main_brand_logo.png"
+              alt="brand_logo"
+            />
+            <img
+              class="brand-logo"
+              src="./img/main_brand_logo.png"
+              alt="brand_logo"
+            />
+            <img
+              class="brand-logo"
+              src="./img/main_brand_logo.png"
+              alt="brand_logo"
+            />
+            <img
+              class="brand-logo"
+              src="./img/main_brand_logo.png"
+              alt="brand_logo"
+            />
+            <img
+              class="brand-logo"
+              src="./img/main_brand_logo.png"
+              alt="brand_logo"
+            />
+            <img
+              class="brand-logo"
+              src="./img/main_brand_logo.png"
+              alt="brand_logo"
+            />
+            <img
+              class="brand-logo"
+              src="./img/main_brand_logo.png"
+              alt="brand_logo"
+            />
+            <img
+              class="brand-logo"
+              src="./img/main_brand_logo.png"
+              alt="brand_logo"
+            />
+            <img
+              class="brand-logo"
+              src="./img/main_brand_logo.png"
+              alt="brand_logo"
+            />
+          </div>
+
+          <h5 class="brands__description description">
+            You're going to be in good company. We work with world's leading
+            brands.
+          </h5>
         </div>
-        <h5 class="brands__description description">
-          You're going to be in good company. We work with world's leading
-          brands.
-        </h5>
       </div>
 
       <div class="works">
-        <div class="works__info">
-          <p class="works__text">START WIDTH US</p>
-          <h3 class="works__info-title title">Start working faster today</h3>
-          <h5 class="works__info-description description">
-            We know the best solution for all of your business ideas and we can
-            help you solve all business problems
-          </h5>
-          <button class="btn">GET STARTED</button>
-        </div>
-        <div class="works__img">
-          <div class="works__img-relatively">
-            <img
-              class="aspect-ratio-img"
-              src="./img/main_work_img.png"
-              alt="work-img" />
+        <div class="works__content">
+          <div class="works__info">
+            <p class="works__text">START WIDTH US</p>
+            <h3 class="works__info-title title">Start working faster today</h3>
+            <h5 class="works__info-description description">
+              We know the best solution for all of your business ideas and we
+              can help you solve all business problems
+            </h5>
+            <button class="btn">GET STARTED</button>
+          </div>
+
+          <div class="works__img">
+            <div class="works__img-relatively">
+              <img
+                class="aspect-ratio-img"
+                src="./img/main_work_img.png"
+                alt="work-img"
+              />
+            </div>
           </div>
         </div>
       </div>
     </main>
 
     <footer class="footer">
-      <div class="footer__navbar">
-        <div class="page-logo">
-          <img class="page-logo__img" src="./img/logo.png" alt="logo" />
+      <div class="footer__content">
+        <div class="navbar navbar--wrap">
+          <div class="page-logo">
+            <img class="page-logo__img" src="./img/logo.png" alt="logo" />
+          </div>
+
+          <ul class="navbar-list navbar-list--wrap">
+            <li class="navbar-item">
+              <a class="navbar__link" href="#">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar__link" href="#">Your benefits</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar__link" href="#">Our process</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar__link" href="#">Our works</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar__link" href="#">Testimonials</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar__link" href="#">Start a project</a>
+            </li>
+          </ul>
+
+          <div class="footer__navbar-links">
+            <a href="#">
+              <img
+                class="social-img"
+                src="./img/footer_logo_facebook.png"
+                alt="social-logo"
+              />
+            </a>
+            <a href="#">
+              <img
+                class="social-img"
+                src="./img/footer_logo_instagram.png"
+                alt="social-logo"
+              />
+            </a>
+            <a href="#">
+              <img
+                class="social-img"
+                src="./img/footer_logo_twiter.png"
+                alt="social-logo"
+              />
+            </a>
+          </div>
         </div>
-        <ul class="navbar-list">
-          <li><a class="list-item" href="#">Home</a></li>
-          <li><a class="list-item" href="#">Your benefits</a></li>
-          <li><a class="list-item" href="#">Our process</a></li>
-          <li><a class="list-item" href="#">Our works</a></li>
-          <li><a class="list-item" href="#">Testimonials</a></li>
-          <li><a class="list-item" href="#">Start a project</a></li>
-        </ul>
-        <div class="footer__navbar-links">
-          <a href="#">
-            <img src="./img/footer_logo_facebook.png" alt="social-logo" />
-          </a>
-          <a href="#">
-            <img src="./img/footer_logo_instagram.png" alt="social-logo" />
-          </a>
-          <a href="#">
-            <img src="./img/footer_logo_twiter.png" alt="social-logo" />
-          </a>
-        </div>
-      </div>
-      <div class="footer__line"></div>
-      <div class="footer__license">
-        <p class="footer__license-company">© 2021 Company</p>
-        <div class="footer__license-block">
-          <p>Privacy policy</p>
-          <p>Term of service</p>
+
+        <div class="footer__line"></div>
+
+        <div class="footer__license">
+          <p class="footer__license-company">© 2021 Company</p>
+          <div class="footer__license-block">
+            <p>Privacy policy</p>
+            <p>Term of service</p>
+          </div>
         </div>
       </div>
     </footer>
