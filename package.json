@@ -1,0 +1,24 @@
+{
+  "name": "adaptive_design_with_bem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w sass -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manvel1996/adaptive_design_with_BEM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manvel1996/adaptive_design_with_BEM/issues"
+  },
+  "homepage": "https://github.com/Manvel1996/adaptive_design_with_BEM#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
