@@ -13,7 +13,7 @@ body {
   font-family: "DM Sans", sans-serif;
   background-image: url("../img/header_bg.png");
   background-repeat: no-repeat;
-  background-size: 102% 15%;
+  background-size: 102% 18%;
   background-position-y: -25px; }
 
 .btn {
@@ -30,10 +30,9 @@ body {
   color: #57b3fe;
   cursor: pointer;
   transition: all 0.5s; }
-
-.btn:hover {
-  background-color: black;
-  color: white; }
+  .btn:hover {
+    background-color: black;
+    color: white; }
 
 .aspect-ratio-img {
   position: absolute;
@@ -67,9 +66,8 @@ body {
   color: inherit;
   text-decoration: none;
   transition: all 0.5s; }
-
-.navbar__link:hover {
-  color: blue; }
+  .navbar__link:hover {
+    color: blue; }
 
 .title {
   font-weight: 500;
@@ -404,7 +402,8 @@ body {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 80px;
+      gap: 112px;
+      row-gap: 68px;
       margin-bottom: 60px;
       width: 100%; }
       .brands__content .brands__logos .brand-logo {
@@ -526,7 +525,7 @@ body {
     --main-padding: 40px;
     --block-distance: 120px; }
   body {
-    background-size: 102% 10%; }
+    background-size: 102% 13%; }
   .page-logo__img {
     width: 200px;
     height: 50px; }
@@ -545,6 +544,8 @@ body {
   :root {
     --main-padding: 16px;
     --block-distance: 40px; }
+  body {
+    background-size: 102% 10%; }
   .page-logo__img {
     width: 160px;
     height: 40px; }
